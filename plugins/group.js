@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+           title: "𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -134,7 +134,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+           title: "𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -560,10 +560,10 @@ const {
      if (!_0x1ed055.isAdmin && !_0x1ed055.isCreator) {
        return _0x1ed055.reply(tlang().admin);
      }
-     let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
+     let _0x392a2d = "\n══✪〘   *.   ࣭࣭࣭࣭ٜ᷼︵࣭ٜ࣭࣭⏜ ❟⃘⃘̷ֺׅ࣭࣭࣭ٜ𐇽⃮࣭֟፝݊☪︎⃘꯭࣭𝆬 ✿⃘꯭ֺ𐇽ꣀ⃘⃝Τɑ𝗀ɑᥣᥣ ꣀ⃘⃝⃘꯭ֺ𐇽✿̷⃘⃘ֺ࣭⃮𐇽ׅ࣭࣭࣭ٜ݊፝֟ ☪︎⃘꯭࣭𝆬❟ ⏜ٜ࣭࣭︵࣭࣭࣭࣭ٜ᷼*   〙✪══\n\n ㌥  ▖▘⃝⚔️‌ ⁾⁾ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\📜 *Author:* " + _0x1ed055.pushName + " ⛧ ࣪  ࣭ ✿゙ ⃞🏴‍☠️‌\n";
      for (let _0x502431 of _0x5d614a) {
        if (!_0x502431.id.startsWith("2348039607375")) {
-         _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
+         _0x392a2d += " ⛧ ࣪  ࣭ ✿゙ ⃞🏴‍☠️‌ @" + _0x502431.id.split("@")[0] + "\n";
        }
      }
      await _0x1ed055.bot.sendMessage(_0x1ed055.chat, {
@@ -847,13 +847,13 @@ const {
      if (_0x4e5253 < 25) {
        _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\t\tThere's still time to reconsider your choices";
      } else if (_0x4e5253 < 50) {
-       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\t\t Good enough, I guess! 💫";
+       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\t\t Good enough, I guess! Qubool Hai💫";
      } else if (_0x4e5253 < 75) {
-       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\t\t\tStay together and you'll find a way ⭐️";
+       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\t\t\tStay together and you'll find a way Hamesha Sath Rehna⭐️";
      } else if (_0x4e5253 < 90) {
-       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\tAmazing! You two will be a good couple 💖 ";
+       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\tAmazing! You two will be a good couple Card Print Karwa Lo 💖 ";
      } else {
-       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\tYou both are fit to be together 💙";
+       _0x523d04 = "\t\t\t\t\t*RelationShip Percentage : " + _0x4e5253 + "%* \n\tYou both are fit to be together Jaldi Shadi Kro 💙";
      }
      return _0x523d04;
    }
