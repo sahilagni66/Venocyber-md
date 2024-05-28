@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
-global.github = process.env.GITHUB || "https://github.com/Kingjux/Venocyber-md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
+global.github = process.env.GITHUB || "https://github.com";
+global.gurl = process.env.GURL || "⊘ 𝘛𝘩𝘪𝘴 𝘤𝘰𝘮𝘮𝘦𝘯𝘵 𝘸𝘢𝘴 𝘥𝘦𝘭𝘦𝘵𝘦𝘥 𝘣𝘺 𝘔𝘢𝘳𝘬 𝘡𝘶𝘤𝘬𝘦𝘳𝘣𝘦𝘳𝘨";
+global.website = process.env.GURL || "⊘ 𝘛𝘩𝘪𝘴 𝘤𝘰𝘮𝘮𝘦𝘯𝘵 𝘸𝘢𝘴 𝘥𝘦𝘭𝘦𝘵𝘦𝘥 𝘣𝘺 𝘔𝘢𝘳𝘬 𝘡𝘶𝘤𝘬𝘦𝘳𝘣𝘦𝘳𝘨";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
 global.devs = "255625774543";
-global.sudo = process.env.SUDO || "255625774543";
-global.owner = process.env.OWNER_NUMBER || "255625774543";
+global.sudo = process.env.SUDO || "918127875972";
+global.owner = process.env.OWNER_NUMBER || "918127875972";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑-𝐌𝐃 ╠════ need support then ☞ https://rb.gy/izabex ═════╣",
-  author: process.env.PACK_AUTHER || "VENOCYBER",
+  caption: process.env.CAPTION || "𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍",
+  author: process.env.PACK_AUTHER || "𝐅𝖾ᥣ𝗂𝗑",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  botname: process.env.BOT_NAME || "𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍",
+  ownername: process.env.OWNER_NAME || "𝐅𝖾ᥣ𝗂𝗑",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
